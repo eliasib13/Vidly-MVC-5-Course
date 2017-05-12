@@ -224,6 +224,18 @@
     <Compile Include="Migrations\201705121856114_RePopulateMembershipTypesWithNames.Designer.cs">
       <DependentUpon>201705121856114_RePopulateMembershipTypesWithNames.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705121905482_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\201705121905482_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>201705121905482_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705121909303_CustomersBirthdateIsNullable.cs" />
+    <Compile Include="Migrations\201705121909303_CustomersBirthdateIsNullable.Designer.cs">
+      <DependentUpon>201705121909303_CustomersBirthdateIsNullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705121910127_SettingBirthdateToCustomers.cs" />
+    <Compile Include="Migrations\201705121910127_SettingBirthdateToCustomers.Designer.cs">
+      <DependentUpon>201705121910127_SettingBirthdateToCustomers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -338,6 +350,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705121856114_RePopulateMembershipTypesWithNames.resx">
       <DependentUpon>201705121856114_RePopulateMembershipTypesWithNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705121905482_AddBirthdateToCustomer.resx">
+      <DependentUpon>201705121905482_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705121909303_CustomersBirthdateIsNullable.resx">
+      <DependentUpon>201705121909303_CustomersBirthdateIsNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705121910127_SettingBirthdateToCustomers.resx">
+      <DependentUpon>201705121910127_SettingBirthdateToCustomers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
